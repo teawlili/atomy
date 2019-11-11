@@ -1,0 +1,30 @@
+{
+  "name": "@atomy/docs",
+  "version": "1.0.0",
+  "description": "atomy products sharing by liliteaw",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teawlili/atomy.git"
+  },
+  "keywords": [
+    "atomy",
+    "vuepress",
+    "vue-starter"
+  ],
+  "author": "TeawLiLi <liliteaw@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://teawlili.github.io/atomy/issues"
+  },
+  "homepage": "https://teawlili.github.io/atomy#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "vuepress": "^1.0.2"
+  }
+}
